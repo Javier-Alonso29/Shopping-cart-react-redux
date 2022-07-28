@@ -56,9 +56,9 @@ export const Product = ({data}) => {
   return (
     <div className='col-3'>
       <div className='card' style={{width: "18rem", margin: "10px 5px"}}>
-        <div className='card-header text-center bg-dark text-white p-3'>
-          <h4 className='card-title'>{name}</h4>
-        </div>
+          <div className='card-header text-center bg-dark text-white p-3'>
+            <h4 className='card-title'>{name}</h4>
+          </div>
           <div className='card-body'>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">Price <span className="badge bg-primary">{price}</span></li>
