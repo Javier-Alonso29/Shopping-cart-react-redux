@@ -9,12 +9,14 @@ export const MenuItems = () => {
     return (
       <div className='container'>
         <div className='row mt-5 mb-5'>
-             {
+          <div className='card-group'>
+            {
               products.map((item) => (
                 <Product key={item.id} data={item} />
               ))
             }
+          </div>
         </div>
-      </div> 
+     </div>
     )
 }
